@@ -1,0 +1,22 @@
+body {
+  direction: rtl;
+  text-align: center;
+  padding-top: 100px;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  padding: 25px;
+  font-size: 20px;
+}
+
+p {
+  margin: 50px;
+}
+
+.label {
+  font-size: 20px;
+}

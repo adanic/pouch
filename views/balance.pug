@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  .col-xs-6
+    img(src='/jpg/pouch.jpg')
+
+  .col-xs-6.content.text-right
+    h1.text-center کیسه پول مشکی
+    h2.text-center تبریک
+    br
+    .row
+      .col-xs-6.text-center
+        span.label.label-info
+          = deposit.balance
+      .col-xs-6
+        label مانده حساب شما:
+
+    br
+    hr
+    br
+
+    .row
+      .col-xs-6.text-center
+        span.label.label-success
+          = deposit.balance * 3
+      .col-xs-6
+        label امتیاز دریافتی

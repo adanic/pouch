@@ -1,0 +1,4 @@
+{ "client_id": "YOUR CLIENT_ID"
+, "secret"  : "YOUR SECRET"
+, "redirect_url": "http://localhost:3000/balance"
+}

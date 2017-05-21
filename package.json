@@ -1,0 +1,14 @@
+{
+  "name": "pouch",
+  "version": "1.0.0",
+  "description": "Finnotech sample application",
+  "main": "index.js",
+  "author": "Finnotech",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.26.1",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.1",
+    "superagent": "^3.5.2"
+  }
+}

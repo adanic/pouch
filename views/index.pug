@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .col-xs-6
+    img(src='/jpg/pouch.jpg')
+
+  .col-xs-6.content.text-right
+    h1.text-center کیسه پول مشکی
+
+    p شما سه برابر مانده حساب بانک آینده امتیاز دریافت میکنید. برای استعلام مانده حساب بر روی دکمه زیر کلیک کنید.
+
+  a.btn.btn-primary.btn-lg(href='https://api.finnotech.ir/dev/v1/oauth2/authorize?response_type=code&client_id=' + config.client_id + '&redirect_uri=' + config.redirect_url + '&scope=oak:balance:get') استعلام موجودی
